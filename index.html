@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Urban Café — a warm, contemporary café experience in Area 10, Lilongwe, Malawi."
+  >
+
+  <meta name="theme-color" content="#1d1915">
+
+  <title>Urban Café | Area 10, Lilongwe</title>
+
+  <!-- Fonts can be added in CSS/production build -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+  <header class="site-header" data-navbar>
+    <nav class="navbar" aria-label="Primary navigation">
+
+      <a class="brand" href="#home" aria-label="Urban Café home">
+        <span class="brand-mark" aria-hidden="true">UC</span>
+        <span class="brand-name">Urban Café</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        data-menu-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="desktop-navigation">
+        <a href="#home" class="nav-link is-active" data-nav-link>Home</a>
+        <a href="#experience" class="nav-link" data-nav-link>Experience</a>
+        <a href="#menu" class="nav-link" data-nav-link>Menu</a>
+        <a href="#atmosphere" class="nav-link" data-nav-link>Atmosphere</a>
+        <a href="#reviews" class="nav-link" data-nav-link>Reviews</a>
+        <a href="#visit" class="nav-link" data-nav-link>Visit</a>
+      </div>
+
+      <a
+        class="nav-cta"
+        href="https://wa.me/265998969594?text=Hi%20Urban%20Caf%C3%A9%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+        target="_blank"
+        rel="noopener noreferrer"
+        data-whatsapp="general"
+      >
+        Enquire
+      </a>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div
+      class="mobile-menu"
+      id="mobile-menu"
+      aria-hidden="true"
+      data-mobile-menu
+    >
+      <div class="mobile-menu-inner">
+
+        <div class="mobile-menu-header">
+          <span class="mobile-menu-label">Menu</span>
+
+          <button
+            class="mobile-menu-close"
+            type="button"
+            aria-label="Close navigation menu"
+            data-menu-close
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <div class="mobile-navigation" data-mobile-navigation>
+          <a href="#home" class="mobile-nav-link" data-nav-link>Home</a>
+          <a href="#experience" class="mobile-nav-link" data-nav-link>Experience</a>
+          <a href="#menu" class="mobile-nav-link" data-nav-link>Menu</a>
+          <a href="#atmosphere" class="mobile-nav-link" data-nav-link>Atmosphere</a>
+          <a href="#reviews" class="mobile-nav-link" data-nav-link>Reviews</a>
+          <a href="#visit" class="mobile-nav-link" data-nav-link>Visit</a>
+        </div>
+
+        <a
+          class="mobile-menu-cta"
+          href="https://wa.me/265998969594?text=Hi%20Urban%20Caf%C3%A9%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+          target="_blank"
+          rel="noopener noreferrer"
+          data-whatsapp="general"
+        >
+          Start an Enquiry
+        </a>
+
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section
+      class="hero"
+      id="home"
+      data-section="home"
+      aria-labelledby="hero-title"
+    >
+      <div class="hero-media">
+        <img
+          src="assets/images/hero.png"
+          alt="Urban Café dining atmosphere"
+          width="1920"
+          height="1200"
+          fetchpriority="high"
+          loading="eager"
+          data-parallax
+        >
+      </div>
+
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+
+        <p class="eyebrow hero-eyebrow">
+          Area 10 · Lilongwe
+        </p>
+
+        <h1 id="hero-title">
+          A little escape<br>
+          in the city.
+        </h1>
+
+        <p class="hero-copy">
+          Good food, exceptional coffee and an atmosphere made for
+          lingering a little longer.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="button button-primary">
+            Explore Menu
+          </a>
+
+          <a href="#visit" class="button button-secondary">
+            Visit Urban Café
+          </a>
+        </div>
+
+      </div>
+
+      <a
+        href="#experience"
+        class="hero-scroll"
+        aria-label="Scroll to Urban Café experience"
+      >
+        <span>Scroll to explore</span>
+        <span class="hero-scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+
+    <!-- =========================
+         EXPERIENCE
+    ========================== -->
+    <section
+      class="experience section"
+      id="experience"
+      data-section="experience"
+      aria-labelledby="experience-title"
+    >
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">The Urban Experience</p>
+
+          <h2 id="experience-title">
+            More than a café.
+          </h2>
+        </div>
+
+        <div class="experience-grid">
+
+          <div class="experience-copy reveal">
+            <p class="lead">
+              Urban Café brings together good food, thoughtful drinks
+              and a relaxed atmosphere in the heart of Area 10.
+            </p>
+
+            <p>
+              Whether you're meeting someone, taking a quiet moment,
+              enjoying a meal or simply looking for somewhere beautiful
+              to spend an afternoon, there's room to settle in.
+            </p>
+          </div>
+
+          <div class="experience-image reveal">
+            <img
+              src="assets/images/intro.png"
+              alt="Guests enjoying the relaxed atmosphere at Urban Café"
+              width="1200"
+              height="1500"
+              loading="lazy"
+            >
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         FEATURED MENU
+    ========================== -->
+    <section
+      class="menu section"
+      id="menu"
+      data-section="menu"
+      aria-labelledby="menu-title"
+    >
+      <div class="container">
+
+        <div class="section-heading menu-heading reveal">
+          <div>
+            <p class="eyebrow">From the kitchen</p>
+
+            <h2 id="menu-title">
+              A taste of Urban.
+            </h2>
+          </div>
+
+          <!-- Intentionally inactive until full menu is commissioned -->
+          <a
+            href="#"
+            class="text-link"
+            aria-label="View full Urban Café menu"
+          >
+            View Full Menu
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="menu-grid">
+
+          <article class="menu-card reveal" data-card>
+            <div class="menu-card-image">
+              <img
+                src="assets/images/shawarma.jpg"
+                alt="Urban Café shawarma"
+                width="1000"
+                height="1200"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-card-content">
+              <p class="menu-card-number">01</p>
+              <h3>Shawarma</h3>
+              <p>
+                A generous, flavour-packed favourite from the Urban Café menu.
+              </p>
+            </div>
+          </article>
+
+
+          <article class="menu-card reveal" data-card>
+            <div class="menu-card-image">
+              <img
+                src="assets/images/coffee.jpg"
+                alt="Coffee latte served at Urban Café"
+                width="1000"
+                height="1200"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-card-content">
+              <p class="menu-card-number">02</p>
+              <h3>Coffee Latte</h3>
+              <p>
+                Smooth, comforting and made for slow moments.
+              </p>
+            </div>
+          </article>
+
+
+          <article class="menu-card reveal" data-card>
+            <div class="menu-card-image">
+              <img
+                src="assets/images/avocado.jpg"
+                alt="Blackened chicken with avocado"
+                width="1000"
+                height="1200"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-card-content">
+              <p class="menu-card-number">03</p>
+              <h3>Blackened Chicken<br>with Avocado</h3>
+              <p>
+                Bold flavour balanced with fresh avocado.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="menu-footer reveal">
+          <a
+            href="https://wa.me/265998969594?text=Hi%20Urban%20Caf%C3%A9%2C%20I%27d%20like%20to%20enquire%20about%20the%20menu."
+            class="button button-outline"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-whatsapp="menu"
+          >
+            Enquire About the Menu
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         ATMOSPHERE / GALLERY
+    ========================== -->
+    <section
+      class="atmosphere section"
+      id="atmosphere"
+      data-section="atmosphere"
+      aria-labelledby="atmosphere-title"
+    >
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">The atmosphere</p>
+
+          <h2 id="atmosphere-title">
+            Stay for the feeling.
+          </h2>
+
+          <p class="section-intro">
+            A space designed for good conversations, quiet moments
+            and everything in between.
+          </p>
+        </div>
+
+        <div class="gallery" data-gallery>
+
+          <figure class="gallery-item gallery-item-large reveal">
+            <img
+              src="assets/images/dance.png"
+              alt="Urban Café interior and dining atmosphere"
+              width="1400"
+              height="1800"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure class="gallery-item gallery-item-wide reveal">
+            <img
+              src="assets/images/out.png"
+              alt="Outdoor garden seating at Urban Café"
+              width="1800"
+              height="1200"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure class="gallery-item gallery-item-small reveal">
+            <img
+              src="assets/images/food.jpg"
+              alt="Food and drinks at Urban Café"
+              width="1000"
+              height="1200"
+              loading="lazy"
+            >
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         GOOGLE REVIEWS
+    ========================== -->
+    <section
+      class="reviews section"
+      id="reviews"
+      data-section="reviews"
+      aria-labelledby="reviews-title"
+    >
+      <div class="container">
+
+        <div class="section-heading reviews-heading reveal">
+          <p class="eyebrow">What people say</p>
+
+          <h2 id="reviews-title">
+            Five stars from the people who came by.
+          </h2>
+        </div>
+
+        <div class="reviews-grid">
+
+          <article class="review-card reveal" data-card>
+            <div class="review-rating" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+
+            <blockquote>
+              <p>
+                “Service is fast. Food is generally good. Non alcoholic
+                drink menu could be expanded. The atmosphere is really
+                nice and well kept. Large enough that others can in the
+                same space and you still feel a level of privacy. It's
+                a must visit if even for the ambiance.”
+              </p>
+            </blockquote>
+
+            <footer class="review-author">
+              <strong>Kimberly Hall</strong>
+              <span>Google Review</span>
+            </footer>
+          </article>
+
+
+          <article class="review-card reveal" data-card>
+            <div class="review-rating" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+
+            <blockquote>
+              <p>
+                “Honestly I’ve always said Urban cafe is timeless.
+                I am not sure if they have changed their menu or if
+                it’s because I haven’t visited in a minute but there is
+                so much to explore and the food was great!”
+              </p>
+            </blockquote>
+
+            <footer class="review-author">
+              <strong>Miss Lollipop</strong>
+              <span>Google Review</span>
+            </footer>
+          </article>
+
+
+          <article class="review-card reveal" data-card>
+            <div class="review-rating" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+
+            <blockquote>
+              <p>
+                “Extensive drink menu that was unique and they were all
+                full of flavor. The burrito was substantial and tasted
+                great. Did not have a lot of meat but overall it was good.”
+              </p>
+            </blockquote>
+
+            <footer class="review-author">
+              <strong>Javier Reyes</strong>
+              <span>Google Review</span>
+            </footer>
+          </article>
+
+        </div>
+
+        <div class="reviews-action reveal">
+          <a
+            href="https://maps.app.goo.gl/nKS4n57zD2cGj96U9"
+            class="text-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Google Reviews
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         VISIT / CONTACT
+    ========================== -->
+    <section
+      class="visit section"
+      id="visit"
+      data-section="visit"
+      aria-labelledby="visit-title"
+    >
+      <div class="container">
+
+        <div class="visit-grid">
+
+          <div class="visit-content reveal">
+            <p class="eyebrow">Come by</p>
+
+            <h2 id="visit-title">
+              Find your way<br>
+              to Urban Café.
+            </h2>
+
+            <p>
+              We're in Area 10, Lilongwe — ready when you are.
+            </p>
+
+            <div class="visit-details">
+
+              <div class="visit-detail">
+                <span class="detail-label">Location</span>
+                <address>
+                  Area 10<br>
+                  Lilongwe, Malawi
+                </address>
+              </div>
+
+              <div class="visit-detail">
+                <span class="detail-label">Contact</span>
+                <a href="tel:+265998969594">
+                  +265 998 969 594
+                </a>
+              </div>
+
+            </div>
+
+            <div class="visit-actions">
+              <a
+                href="https://wa.me/265998969594?text=Hi%20Urban%20Caf%C3%A9%2C%20I%27d%20like%20to%20enquire%20about%20visiting%20the%20caf%C3%A9."
+                class="button button-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-whatsapp="visit"
+              >
+                Contact Urban Café
+              </a>
+
+              <a
+                href="https://maps.app.goo.gl/nKS4n57zD2cGj96U9"
+                class="button button-outline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Directions
+              </a>
+            </div>
+
+          </div>
+
+          <div class="visit-map reveal">
+            <a
+              href="https://maps.app.goo.gl/nKS4n57zD2cGj96U9"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Urban Café location in Google Maps"
+            >
+              <div class="map-placeholder">
+                <span class="map-label">Area 10</span>
+                <span class="map-location">Lilongwe, Malawi</span>
+                <span class="map-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="social-links reveal">
+          <span class="social-label">Follow Urban Café</span>
+
+          <a
+            href="https://www.facebook.com/urbancafellw/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Urban Café on Facebook"
+          >
+            Facebook
+          </a>
+
+          <a
+            href="https://www.instagram.com/urbancafellw/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Urban Café on Instagram"
+          >
+            Instagram
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         FINAL CTA
+    ========================== -->
+    <section
+      class="final-cta section"
+      aria-labelledby="final-cta-title"
+    >
+      <div class="container final-cta-content reveal">
+
+        <p class="eyebrow">Your table is waiting</p>
+
+        <h2 id="final-cta-title">
+          Make a little time<br>
+          for Urban Café.
+        </h2>
+
+        <a
+          href="https://wa.me/265998969594?text=Hi%20Urban%20Caf%C3%A9%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+          class="button button-light"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-whatsapp="final"
+        >
+          Start an Enquiry
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="site-footer">
+
+    <div class="container footer-main">
+
+      <div class="footer-brand">
+        <a href="#home" class="brand" aria-label="Urban Café home">
+          <span class="brand-mark" aria-hidden="true">UC</span>
+          <span class="brand-name">Urban Café</span>
+        </a>
+
+        <p>
+          Good food. Good coffee.<br>
+          A little escape in the city.
+        </p>
+      </div>
+
+      <div class="footer-navigation">
+
+        <div class="footer-column">
+          <span class="footer-heading">Explore</span>
+
+          <a href="#experience">Experience</a>
+          <a href="#menu">Menu</a>
+          <a href="#atmosphere">Atmosphere</a>
+          <a href="#reviews">Reviews</a>
+        </div>
+
+        <div class="footer-column">
+          <span class="footer-heading">Connect</span>
+
+          <a href="#visit">Visit</a>
+
+          <a
+            href="https://www.facebook.com/urbancafellw/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+
+          <a
+            href="https://www.instagram.com/urbancafellw/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+
+      <p>
+        © <span data-current-year>2026</span> Urban Café. All rights reserved.
+      </p>
+
+      <p class="hipronia-credit">
+        Designed by
+        <a
+          href="https://wa.me/265999469705?text=Hi%20Hipronia%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Hipronia
+        </a>
+        <span aria-hidden="true"> · </span>
+        <a
+          href="https://wa.me/265999469705?text=Hi%20Hipronia%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          contact on WhatsApp 》
+        </a>
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================
+       FLOATING WHATSAPP
+  ========================== -->
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/265998969594?text=Hi%20Urban%20Caf%C3%A9%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact Urban Café on WhatsApp"
+    data-whatsapp="floating"
+  >
+    <svg
+      class="whatsapp-icon"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path
+        d="M20.52 3.48A11.87 11.87 0 0 0 12.07 0
+        C5.5 0 .15 5.35.15 11.92c0 2.1.55 4.15 1.6 5.96L.05 24
+        l6.26-1.64a11.9 11.9 0 0 0 5.75 1.47h.01
+        c6.57 0 11.92-5.35 11.92-11.92
+        0-3.18-1.24-6.17-3.47-8.43ZM12.07 21.82
+        a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.72.98
+        .99-3.63-.23-.37a9.9 9.9 0 1 1 8.35 4.61Zm5.43-7.41
+        c-.3-.15-1.78-.88-2.05-.98-.28-.1-.48-.15-.68.15
+        -.2.3-.78.98-.95 1.18-.17.2-.35.22-.65.07
+        -.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.64-2.06
+        -.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.53
+        .15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53
+        -.07-.15-.68-1.63-.93-2.24-.24-.58-.49-.5-.68-.51
+        -.18-.01-.38-.01-.58-.01-.2 0-.53.07-.8.38
+        -.28.3-1.05 1.03-1.05 2.51s1.08 2.91 1.23 3.11
+        c.15.2 2.13 3.25 5.16 4.56.72.31 1.28.5 1.72.64
+        .72.23 1.38.2 1.9.12.58-.09 1.78-.73 2.03-1.43
+        .25-.7.25-1.3.18-1.43-.07-.13-.27-.2-.57-.35Z"
+      />
+    </svg>
+
+    <span class="whatsapp-float-label">
+      WhatsApp
+    </span>
+  </a>
+
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
+
